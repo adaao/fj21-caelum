@@ -1,0 +1,12 @@
+-- Database: fj21
+
+-- DROP DATABASE fj21;
+
+CREATE TABLE contatos (
+	id SERIAL,
+	nome VARCHAR(255),
+	email VARCHAR(225),
+	endereco VARCHAR(225),
+	dataNascimento DATE,
+	PRIMARY KEY (id)
+);
